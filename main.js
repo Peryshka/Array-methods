@@ -2,11 +2,17 @@
 1) На forEach:
     - Дан массив с числами. Создайте новый массив, состоящий из квадратов этих чисел
 */
-// let numbers = [2,4,3,6,8];
-// let squareArray = numbers.forEach(item => console.log(item*item))
+ //let numbers = [2,4,3,6,8];
+// let array = [];
+// numbers.forEach(item => {
+//     const square = item*item;
+//     array.push(square);
+// })
+// console.log(array)
+
 // //2) - Дан массив с числами. Найдите сумму этих чисел. forEach
 // let sum = 0;
-// let sumArray = numbers.forEach(item => {
+//  numbers.forEach(item => {
 //     sum += item;
 // } )
 // console.log(sum);
@@ -60,11 +66,13 @@
 //     }
 // })
 //
-//  console.log(filterArray.length); //6
+// const length = filterArray.length;
+// console.log(length); //6
+
 // //- Дан массив со строками. Оставьте в нем только те строки,
 // // длина которых больше 5-ти символов.
 // let wordArray = ['first','second','third','fourth','fifth','sixth','seventh'];
-// const filterArray2 = wordArray.filter((item, idx, array) => {
+// const filterArray2 = wordArray.filter(item => {
 //     if(item.length > 5) {
 //         return item;
 //     }
